@@ -22,5 +22,7 @@ module.exports = {
     'arrow-parens': 1,
     'object-curly-newline': ['error', { multiline: true }],
     'linebreak-style': ['error', (process.platform === 'win32' ? 'windows' : 'unix')],
+    'react/jsx-props-no-spreading': 'off',
+    'max-len': [2, 2000, 4, { ignoreUrls: true }],
   },
 };
