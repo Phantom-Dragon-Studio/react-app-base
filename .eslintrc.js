@@ -24,5 +24,7 @@ module.exports = {
     'linebreak-style': ['error', (process.platform === 'win32' ? 'windows' : 'unix')],
     'react/jsx-props-no-spreading': 'off',
     'max-len': [2, 2000, 4, { ignoreUrls: true }],
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
   },
 };
